@@ -1,0 +1,31 @@
+.container{
+               padding: 0.5rem;
+               margin: auto;
+               width : 25rem;
+               height: 40rem;
+               max-height: 40rem;
+               background-image: url('../to\ do\ img.jpg');
+               background-size:auto;
+               border-radius: 1rem;
+               border : solid black 1px;
+               margin-top: 2rem;
+               text-align: center;
+               display: flexbox;
+               overflow: auto;
+               color: antiquewhite
+}
+.circle{
+               font-size: 1.5rem;
+               color: black;
+}
+.del_btn{
+               margin-left: 1rem;
+               margin-top: 0.5rem;
+               border-radius: 0.35rem;
+               border: solid 1px white;
+               cursor: pointer;               
+}
+li{
+               list-style-type: square;
+               text-align: left;
+}
